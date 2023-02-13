@@ -56,15 +56,16 @@ print(a!=5)
 # logical operators
 
 a=5
-and
+
+# and
 print((a==5) & (a<=5))
 print((a==5) & (a!=5))
 
-or
+# or
 print((a==5) | (a!=5))
 print((a!=5) | (a!=5))
 
-not
+# not
 print(not(a<5))
 
 # python casting
@@ -96,3 +97,20 @@ name="john"
 age=35
 z="this is {} and he is {} years old"
 print(z.format(name,age))
+
+# Slicing strings
+
+b = "Hello, World!"
+print(b[-5:-2])
+
+# String split()
+
+txt = "apple#banana#cherry#orange"
+x = txt.split("#", 1)
+print(x)
+
+# Escape characters
+
+txt = "We are the so-called\t\"Vikings\" from the north.\r"
+txt1 = '\nIt\'s alright.'
+print(txt,txt1) 
