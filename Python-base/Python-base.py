@@ -114,3 +114,17 @@ print(x)
 txt = "We are the so-called\t\"Vikings\" from the north.\r"
 txt1 = '\nIt\'s alright.'
 print(txt,txt1) 
+
+
+# Python Dictionaries
+thisdicts = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdicts)
+
+thisdict = dict(name = "John", age = 36, country = "Norway")
+print(thisdict)
+
+
